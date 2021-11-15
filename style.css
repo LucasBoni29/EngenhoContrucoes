@@ -1,0 +1,88 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+/* Removendo o sublinhado do link */
+a{
+    text-decoration: none;
+}
+
+/* Diminuindo a nitidez de quando o icone do mouse fica sobre o link */
+a:hover{
+    opacity: 0.7;
+    color: #DAA520;
+}
+
+/* a:active{
+    color: #DAA520;
+} */
+
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav{
+    display: flex; /* Colocando os itens da navbar um do lado do outro */
+    justify-content: space-around; /* O espaço ao redor será a metade do espaço entre eles */
+    align-items: center;
+    background-color: #082032;
+    height: 8vh;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+/* Aba Sobre */
+#color-sobre{
+    background-color: white;
+}
+
+main .img{
+    width: 100%;
+    height: 180px;
+    position: relative;
+    background: url("/img/bob.png") ;
+}
+body{
+    background-color: #363636;
+}
+
+main .title{
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    /* background-color: red; */
+    width: 100%;
+}
+
+main .title h2,p{
+    color: black; 
+    padding-top: 5px;
+}
+
+main .info{
+    margin: 20px; /* Distância das bordas da div */
+    font-size: 30px;
+}
+
+footer nav{
+    position: relative;
+    height: 8vh;
+    top: 154px;
+    background-color: #A9A9A9;
+    color: black    ;
+}
